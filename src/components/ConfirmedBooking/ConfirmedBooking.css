@@ -1,0 +1,10 @@
+.confirm {
+  color: #f4ce14;
+}
+
+@media screen and (max-width: 768px) {
+  form,
+  .confirm {
+    padding: 10px 8%;
+  }
+}

@@ -1,0 +1,40 @@
+.card {
+  /* height: 400px; */
+  width: 350px;
+  background: #edefee;
+  border-radius: 8px;
+}
+
+.cardImage {
+  max-width: 100%;
+  height: 233px;
+}
+
+.cardImage img {
+  width: 100%;
+  height: 233px;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.cardTitle {
+  font-family: Karla, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.menuContent {
+  padding: 5px 15px;
+}
+
+.menuContent .heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 860px) {
+  .card {
+    width: 100%;
+  }
+}

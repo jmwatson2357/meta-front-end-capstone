@@ -1,0 +1,53 @@
+/* menu items */
+.menu-container {
+  margin: 110px auto;
+  padding: 10px 13%;
+}
+
+.menu-container h2 {
+  color: #000;
+}
+
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cardGroup {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem 1rem;
+}
+
+.menuPrice {
+  font-family: Karla, sans-serif;
+  font-size: 18px;
+  color: #ee9972;
+  font-weight: 500;
+}
+
+.orderbtn {
+  padding: 5px 12px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 860px) {
+  .menu-container {
+    padding: 10px 8%;
+    margin: 20px 0;
+  }
+  .menu-header {
+    justify-content: space-between;
+  }
+
+  .card {
+    width: 100%;
+  }
+}

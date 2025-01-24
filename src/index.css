@@ -1,0 +1,109 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  margin: 0;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: #f4ce14;
+  color: #333333;
+  padding: 14px 18px;
+  border: none;
+  text-decoration: none;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+.display {
+  font-family: "Markazi Text", serif;
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 500;
+  margin: 0;
+}
+
+.hero {
+  background-color: #495e57;
+  padding: 40px 0;
+}
+.hero section {
+  max-width: 860px;
+  color: #edefee;
+  padding: 10px 13%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.highlight {
+  font-family: Karla, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #495e57;
+}
+.lead {
+  font-family: Karla, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.my-0 {
+  appearance: none;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.paragraph {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.subTitle {
+  font-family: "Karla", sans-serif;
+  font-size: 40px;
+  line-height: 1;
+  font-weight: 400;
+  margin: 0;
+}
+
+.textYellow {
+  color: #f4ce14;
+}
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* track */
+::-webkit-scrollbar-track {
+  display: none;
+}
+/* handle */
+::-webkit-scrollbar-thumb {
+  background: #f4ce14;
+  border-radius: 5px;
+}
+/* handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #495e57;
+}
